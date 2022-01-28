@@ -1,0 +1,16 @@
+.villain {
+	background: red;
+	color: white;
+}
+
+.super-villain {
+	background: blue;
+	color: white;
+}
+
+.villain, .super-villain {
+	height: 25vh;
+	width: 50vw;
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
