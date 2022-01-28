@@ -1,0 +1,111 @@
+body{
+    
+    background-color: rgb(52, 152, 219);;
+    padding: 50px;
+}
+h2{
+    padding-top: 25px;
+    padding-left: 27px ;
+     font-size: 50px;
+     font-family: 'Jaldi', sans-serif;
+     font-weight: bold;
+     /* margin: auto; */
+     margin: 2px;
+     /* opacity: 1; */
+ }
+ .container{
+    
+     width: 752px;;
+     height: 446px;;
+     /* border-radius:10px;   */
+     /* display:flex;
+     flex-direction:column; */
+     /* justify-content:center; */
+     /* align-items:center; */
+     background-color: white;
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     /* border: 3px solid rgb(255, 255, 255,0); */
+ }
+ .border{
+     width: 751px;
+     height: 445px;
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     border: 7px solid white;
+ }
+ #details{
+     display:flex;
+     flex-direction:column;
+     /* justify-content:center; */
+     align-items:center;
+     padding-top:20px;
+ }
+ #button{
+     background-color:#44C650;
+     border: 1px white solid;
+     padding: 8px 46px;
+     /* ratio is 4:13 */
+     color: white;
+     /* border-radius: 4px; */
+     font-size: 25px;
+     position: relative;
+     left: 139px;
+     right: 0;
+     top: 0;
+     bottom: 0;
+ }
+ #email{
+     border: 5px solid #3D3C38;    
+     font-size: 32px;
+     width: 439px;
+     /* margin-top: -50px; */
+     font-weight: bold;
+     font-family: 'Jaldi', sans-serif;
+ }
+ #password{
+     border: 5px solid #3D3C38;
+     font-size: 32px;
+     width: 439px;
+     font-weight: bold;
+     font-family: 'Jaldi', sans-serif;
+     background-color: white;
+     opacity: 1;
+     margin-top: 15px;
+     margin-bottom: 15px;
+ }
+ /* #register */
+  a:link{
+     color: black;
+     background-color: transparent;
+     text-decoration: none;
+     font-weight: bold;
+     font-family: 'Jaldi', sans-serif;
+     font-size: 25px;
+ }
+ /* #register  */
+ a:visited {
+     color: black;
+     background-color: transparent;
+     text-decoration: none;
+     font-weight: bold;
+     font-family: 'Jaldi', sans-serif;
+     font-size: 25px;
+   }
+ /* #register  */
+ a:hover {
+     color: #1a9b54;
+     background-color: transparent;
+     text-decoration: underline;
+     font-weight: bold;
+     font-family: 'Jaldi', sans-serif;
+     font-size: 25px;
+ }
