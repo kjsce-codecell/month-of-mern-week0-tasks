@@ -5,6 +5,7 @@
 ### TODO
 
 - [ ] create a heading `The Colour Chart`
+- [ ] create subheadings `Primary Colors`, `Secondary Colors` and `Color Wheel` 
 - [ ] The chart should have circular elements
   - [ ] Primary Colours
   - [ ] Secondary Colours
