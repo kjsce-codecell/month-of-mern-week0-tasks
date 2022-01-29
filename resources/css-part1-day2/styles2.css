@@ -1,0 +1,26 @@
+.keyfranim {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: simple-stuff;
+    animation-duration: 4s;
+    text-align: center;
+  }
+  
+@keyframes simple-stuff {
+    0% {
+        background-color: lightblue;
+    }
+    25% {
+        background-color: lightcoral;
+    }
+    50% {
+        background-color: lightgreen;
+    }
+    75% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: lightslategrey;
+    }
+}
