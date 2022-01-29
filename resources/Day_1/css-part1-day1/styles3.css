@@ -1,0 +1,38 @@
+.movable-sq {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: something-better;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+  
+@keyframes something-better {
+    0% {
+        background-color: #ffcccb; 
+        left: 0px; 
+        top: 0px;
+    }
+    25% {
+        background-color: #ADD8E6; 
+        left: 200px; 
+        top: 0px;
+    }
+    50% {
+        background-color: #90EE90; 
+        left: 200px; 
+        top: 200px;
+    }
+    75% {
+        background-color: #ffcccb; 
+        left: 0px; 
+        top: 200px;
+    }
+    100% {
+        background-color: #ADD8E6; 
+        left: 0px; 
+        top: 0px;
+    }
+}
