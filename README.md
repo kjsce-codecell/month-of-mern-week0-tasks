@@ -3,7 +3,7 @@
 ## Task0
 
 ```
-To be completed before Wednesday 5th February, 2022
+To be completed before Wednesday 2nd February, 2022
 ```
 
 Specification available in [this folder](./tasks/task0).
@@ -11,7 +11,7 @@ Specification available in [this folder](./tasks/task0).
 ## Task1
 
 ```
-To be completed before Wednesday 5th February, 2022
+To be completed before Wednesday 2nd February, 2022
 ```
 
 Specification available in [this folder](./tasks/task1).
