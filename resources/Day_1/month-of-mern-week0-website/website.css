@@ -1,0 +1,34 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(1.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-nav {
+  padding-right: 1px;
+}
+
+.px_wide {
+  width: 700px;
+}
+.align {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* other browsers */
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+}
