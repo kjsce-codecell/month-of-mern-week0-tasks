@@ -1,0 +1,34 @@
+<html>
+    <!-- GUESS THE NUMBER -->
+    <head>
+        <title>Activity_1</title>
+    </head>
+    <body>
+        <p>Guess the random Number (0 to 5)</p>
+        <p>
+            <input type="text" id="guess"> 
+            <button id="check">Guess!</button>
+        </p>
+        <script type="text/javascript">
+            // alert(Math.random());
+            // between 0 to 1
+            // alert(Math.random()*5)
+            //between 0 to 5 (decimal)
+            // to get whole number
+
+            document.getElementById("check").onclick=function(){
+                var random= Math.floor(Math.random()*5);
+
+                if(document.getElementById("guess").value== random){
+                    alert("YAY! You guessed it right.")
+                }
+                else{
+                    alert("Oops, the number was "+ random+". Try again!")
+                }
+
+            }
+
+           
+        </script>
+    </body>
+</html>

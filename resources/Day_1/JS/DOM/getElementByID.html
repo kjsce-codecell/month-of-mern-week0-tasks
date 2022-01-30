@@ -1,0 +1,32 @@
+<!-- document object can be accessed with windows.document / just document -->
+<!-- https://www.w3schools.com/jsref/dom_obj_document.asp -->
+
+<!-- .getElementById() -->
+
+<html>
+    <head>
+        <title>DOM: Properties and Methods</title>
+    </head>
+    <body>
+
+        <p id="para1">---</p>
+        <button id="changeTXT">Change Text!</button>
+
+        <script type="text/javascript">
+            document.getElementById("changeTXT").onclick=function(){
+                document.getElementById("para1").innerHTML="Good night!";
+            }
+          </script>
+
+          <!-- avtivity: concaniation
+                            add variable x with value folks to the innerHTML of p tag so that the resulting
+                        string to appear on screen when we click button should be "Good Morning Folks" -->
+          <!-- <script type="text/javascript">
+              var x="folks!"
+            document.getElementById("changeTXT").onclick=function(){
+                document.getElementById("para1").innerHTML="Good morning " + x;
+            }
+          </script> -->
+
+    </body>
+</html>

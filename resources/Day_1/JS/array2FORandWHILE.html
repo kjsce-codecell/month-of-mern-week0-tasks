@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array2</title>
+</head>
+<body>
+    <!-- displays every tweet on each line -->
+    <div id="tweetDiv"></div>
+    <script type="text/javascript">
+        var tweetString="";
+        var tweets=["Hi everyone!", "What a beautiful day!", "Planning to go to the beach.", "Well, the rain ruined my day.", "Good night everyone!"];
+
+        // for loop
+        // for(var i=0; i<tweets.length; i++){
+
+        //     tweetString=tweetString+"<p>" + tweets[i] +"</p>";
+        // }
+
+        //while loop
+
+        var i=0;
+        while(i<tweets.length){
+            tweetString=tweetString+"<p>" + tweets[i] +"</p>";
+            i++;
+        }
+
+        // can anyone tell me what the p tag is doing here exactly?
+        // well here we have the property .innerHTML. so basically the innen HTML is set to tweetString, and as that is HTML, p tag is implimented 
+        document.getElementById("tweetDiv").innerHTML = tweetString;
+    </script>
+</body>
+</html>

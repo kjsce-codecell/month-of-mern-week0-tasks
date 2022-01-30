@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>valueANDstyle</title>
+    </head>
+    <body>
+        Name:
+        <input type="text" id="name" placeholder="name">
+        <br>
+        <br>
+        Mobile Number:
+        <input type="tel" id="tele" placeholder="number" pattern=[0-9]{10}>
+        <br>
+        <br>
+        <button id="Submit">Submit</button>
+
+        <p id="para1"></p>
+        <button id="button2">Style it!</button>
+        
+        <script type="text/javascript">
+            document.getElementById("Submit").onclick=function(){
+                document.getElementById("para1").innerHTML= document.getElementById("name").value + " and " + document.getElementById("tele").value;
+            }
+            document.getElementById("button2").onclick=function(){
+                document.getElementById("para1").style.border="3px black solid";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#myDIV {
+  margin: 25px;
+  width: 550px;
+  height: 100px;
+  background: orange;
+  position: relative;
+  font-size: 20px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+</style>
+</head>
+<body>
+
+<p>This example uses the addEventListener() method to attach an "animationstart" and "animationend" event to a DIV element.</p>
+
+<div id="myDIV" ondblclick="myFunction()"></div>
+
+<script>
+var x = document.getElementById("myDIV");
+
+// Start the animation with JavaScript
+function myFunction() {
+  x.style.WebkitAnimation = "mymove 4s 2"; // Code for Chrome, Safari and Opera
+}
+
+// Code for Chrome, Safari and Opera
+x.addEventListener("webkitAnimationStart", myStartFunction);
+x.addEventListener("webkitAnimationEnd", myEndFunction);
+
+
+
+function myStartFunction() {
+  this.style.backgroundColor = "pink";
+}
+
+
+
+function myEndFunction() {
+  this.style.backgroundColor = "lightgray";
+}
+</script>
+
+</body>
+</html>
