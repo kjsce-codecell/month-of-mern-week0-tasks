@@ -20,6 +20,6 @@ Specification available in [this folder](./tasks/task1).
 
 1. Use this repository as a template and push the code to your repository.
 
-   - For reference use [these videos](https://drive.google.com/drive/u/2/folders/1jZ-K1CrjZPvej2wNKWsVC1iWgphi6RHO).
+   - For reference use [these videos](https://drive.google.com/drive/folders/11pai7ipG_6irotvyg_FlqCGDwxVmTu4R?usp=sharing).
 
 2. Fill [this form](https://www.kjscecodecell.com/month-of-mern/assignment/week0).
