@@ -16,7 +16,7 @@ To be completed before Wednesday 5th February, 2022
 
 Specification available in [this folder](./tasks/task1).
 
-## How To Submission
+## How To Submit?
 
 1. Use this repository as a template and push the code to your repository.
 
